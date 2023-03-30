@@ -18,6 +18,7 @@
 .container{
   width: 90%;
   margin: auto;
+  border: 2px solid black;
 }
 [class*="col-"]{
   float: left;
@@ -58,7 +59,10 @@
 .col-12{
   width: 100%;
 }
-/* header section  */
+div{
+  border: 2px solid red;
+}
+/*header section */
 .nav{
   padding-top: 20px;
 }
@@ -72,8 +76,16 @@ header ul{
 }
 header li{
   display: inline-block;
-  margin: 0 20px;
-  padding: 10px;
+  padding: 10px 30px;
+}
+header li:hover{
+  background-color: #643a79;
+  border-radius: 5px;
+}
+a{
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 header a{
   text-decoration: none;
@@ -81,7 +93,7 @@ header a{
 }
 #hero{
   text-align: center;
-  margin: 75px 0;
+  margin: 75px auto 25px;
   padding: 20px 0;
 }
 h1{
@@ -89,15 +101,41 @@ h1{
   font-weight: 700;
 }
 .btn{
+  margin: 45px auto 25px;
+}
+.btn a{
   padding: 10px;
-  margin: 15px 0;
-  background-color: orange;
+  background-color: #eb7d4b;
 }
 /* header section end  */
 /* main  */
 section{
   text-align: center;
 }
-.service{
-  
+#section-1{
+  background-color: #17c2a4;
+  color: white;
+  padding: 75px 0;
+}
+.underline{
+  border-bottom: 5px solid rgba(0, 0, 0, 0.185);
+  border-radius: 5px;
+  width: 7%;
+  margin: 5px auto;
+}
+.header-text{
+  width: 40%;
+  margin: 0 auto 15px;
+  font-size: 1rem;
+}
+.service-cols{
+  padding: 5px;
+}
+.service-cols img{
+  height: 90px;
+  width: auto;
+  margin: 15px auto;
+}
+.text{
+  padding: 10px 15px;
 }
