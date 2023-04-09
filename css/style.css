@@ -17,8 +17,8 @@
 }
 .container{
   width: 90%;
-  margin: auto;
-  border: 2px solid black;
+  margin: 0 auto;
+  /* border: 2px solid black; */
 }
 [class*="col-"]{
   float: left;
@@ -60,7 +60,7 @@
   width: 100%;
 }
 div{
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 /*header section */
 .nav{
@@ -87,7 +87,7 @@ a{
   font-weight: 500;
   text-transform: uppercase;
 }
-header a{
+a{
   text-decoration: none;
   color: #fff;
 }
@@ -111,11 +111,26 @@ h1{
 /* main  */
 section{
   text-align: center;
+  padding: 75px 0 100px 0;
+}
+.section-header{
+  margin: 20px auto;
 }
 #section-1{
   background-color: #17c2a4;
   color: white;
-  padding: 75px 0;
+}
+h2, .heading{
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+}
+.heading{
+  letter-spacing: 0;
+}
+.sub-heading{
+  color: #48c1e9;
+  font-size: small;
 }
 .underline{
   border-bottom: 5px solid rgba(0, 0, 0, 0.185);
@@ -124,18 +139,57 @@ section{
   margin: 5px auto;
 }
 .header-text{
-  width: 40%;
+  width: 50%;
   margin: 0 auto 15px;
   font-size: 1rem;
 }
 .service-cols{
   padding: 5px;
 }
-.service-cols img{
-  height: 90px;
+[class*="-cols"] img{
+  display: inline-block;
+  height: 130px;
   width: auto;
   margin: 15px auto;
 }
 .text{
-  padding: 10px 15px;
+  padding: 10px 20%;
+}
+#section-2{
+  background-color: #e7f1f8;
+  color: #3c4761;
+}
+.social-icon, i{
+  padding: 10px;
+  margin: 0px auto;
+}
+#section-3{
+  background-color: #ffffff;
+  color: #3c4761;
+}
+#section-3 .heading{
+  font-size: larger;
+  padding-bottom: 15px;
+}
+#section-4{
+  background-color: #ffdd99;
+  color: #393939;
+}
+.portfolio{
+  padding: 20px 20px 30px 20px;
+}
+.portfolio-links{
+  background-color: #ebc985;
+  margin: 25px 5px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#section-4 .btn a{
+  background-color: #17c2a4;
+  color: #fff;
+}
+#section-4 img{
+  height: 200px;
 }
