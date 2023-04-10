@@ -240,7 +240,6 @@ input, textarea{
 }
 .name, .email{
   margin: 15px 0;
-  height: 6vh;
   width: 45%;
 }
 .email{
